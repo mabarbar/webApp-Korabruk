@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUsList from "../AboutUsList/AboutUsList.js";
+import AboutUsList from "../AboutUsList/AboutUsList.jsx";
 import "./AboutUs.css";
 
 const AboutUs = () => {

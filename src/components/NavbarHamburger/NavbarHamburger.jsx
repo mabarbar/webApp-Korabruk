@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./NavbarHamburger.css";
+import "./NavbarHamburger.css";
 
 const NavbarHamburger = () => {
   const handleClick = () => {

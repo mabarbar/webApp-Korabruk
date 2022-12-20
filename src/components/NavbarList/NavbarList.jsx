@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarListElement from '../NavbarListElement/NavbarListElement'
+import NavbarListElement from '../NavbarListElement/NavbarListElement.jsx'
 import './NavbarList.css'
 
 const NavbarList = () => {

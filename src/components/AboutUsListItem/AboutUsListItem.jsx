@@ -1,4 +1,5 @@
 import React from 'react'
+import './AboutUsListItem.css'
 
 const AboutUsListItem = ( {text} ) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import ListItem from "../ListItem/ListItem.js";
+import ListItem from "../ListItem/ListItem.jsx";
 import "./List.css";
 
 const ItemList = () => {

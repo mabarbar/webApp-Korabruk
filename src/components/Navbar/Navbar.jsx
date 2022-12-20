@@ -1,6 +1,6 @@
 import React from "react";
-import NavbarList from "../NavbarList/NavbarList";
-import NavbarHamburger from "../NavbarHamburger/NavbarHamburger";
+import NavbarList from "../NavbarList/NavbarList.jsx";
+import NavbarHamburger from "../NavbarHamburger/NavbarHamburger.jsx";
 import "./Navbar.css";
 
 const Navbar = () => {

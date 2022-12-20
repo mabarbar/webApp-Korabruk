@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUsListItem from "../AboutUsListItem/AboutUsListItem.js";
+import AboutUsListItem from "../AboutUsListItem/AboutUsListItem.jsx";
 import "./AboutUsList.css";
 
 const AboutUsList = () => {
