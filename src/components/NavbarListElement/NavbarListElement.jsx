@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavbarListElement.css";
+import "./NavbarListElement.module.css";
 
 const NavbarListElement = ({ link, text }) => {
   return (

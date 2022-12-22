@@ -1,5 +1,5 @@
 import React from 'react'
-import './AboutUsListItem.css'
+import styles from './AboutUsListItem.module.css'
 
 const AboutUsListItem = ( {text} ) => {
   return (

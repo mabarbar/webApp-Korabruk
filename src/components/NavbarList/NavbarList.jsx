@@ -1,11 +1,11 @@
 import React from 'react'
 import NavbarListElement from '../NavbarListElement/NavbarListElement.jsx'
-import './NavbarList.css'
+import styles from './NavbarList.module.css'
 
 const NavbarList = () => {
   return (
     <div>
-      <ul class="navButtons">
+      <ul class={styles.navButtons}>
         <NavbarListElement link = "#container1" text = "Usługi"/>
         <NavbarListElement link = "#container2" text = "Realizacje"/>
         <NavbarListElement link = "#container3" text = "Zadzwoń do nas"/>

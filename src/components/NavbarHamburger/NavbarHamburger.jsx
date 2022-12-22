@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavbarHamburger.css";
+import styles from "./NavbarHamburger.module.css";
 
 const NavbarHamburger = () => {
   const handleClick = () => {
@@ -10,9 +10,13 @@ const NavbarHamburger = () => {
   };
 
   return (
-    <button onClick={handleClick} class="hamburger" aria-label="hamburger menu">
-      <span class="hamburger__box">
-        <span class="hamburger__inner"></span>
+    <button
+      onClick={handleClick}
+      className={styles.hamburger}
+      aria-label="hamburger menu"
+    >
+      <span className={styles.hamburger__box}>
+        <span className={styles.hamburger__inner}></span>
       </span>
     </button>
   );

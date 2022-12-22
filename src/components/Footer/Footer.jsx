@@ -1,6 +1,6 @@
 import React from "react";
 import FooterList from "../FooterList/FooterList";
-import "./Footer.css";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   const date = new Date();
@@ -8,15 +8,15 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="footerContent">
-        <p className="footerLogo">KORA BRUK</p>
+      <div className={styles.footerContent}>
+        <p className={styles.footerLogo}>KORA BRUK</p>
         <p>
           Oferujemy kompleksowe usługi w zakresie brukarstwa, projektowania i
           budowy ogrodów a także innych usług budowlanych. Działamy na terenie
           województwa lubelskiego.
         </p>
         <FooterList />
-        <p>Copyright &copy; {copyrightYear}. All Rights Reserved.</p>
+        <p className={styles.copyright}>Copyright &copy; {copyrightYear}. All Rights Reserved.</p>
       </div>
     </footer>
   );

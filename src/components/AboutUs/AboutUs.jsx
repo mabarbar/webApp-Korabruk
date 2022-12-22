@@ -1,10 +1,10 @@
 import React from "react";
 import AboutUsList from "../AboutUsList/AboutUsList.jsx";
-import "./AboutUs.css";
+import styles from "./AboutUs.module.css";
 
 const AboutUs = () => {
   return (
-    <section className="aboutUsContent">
+    <section className={styles.aboutUsContent}>
       <h2>Dlaczego warto?</h2>
       <AboutUsList />
     </section>

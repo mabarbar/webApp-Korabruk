@@ -1,13 +1,13 @@
 import React from "react";
 import NavbarList from "../NavbarList/NavbarList.jsx";
 import NavbarHamburger from "../NavbarHamburger/NavbarHamburger.jsx";
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <a class="logo" href="index.html">
-        <span class="halfLogo">KORA</span> BRUK
+      <a class="logo" href="~">
+        <span class={styles.halfLogo}>KORA</span> BRUK
       </a>
 
       <NavbarList />

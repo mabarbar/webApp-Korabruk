@@ -1,10 +1,10 @@
 import React from "react";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <section className="headerCont">
-      <h1 className="heroSectionText">
+    <section className={styles.headerCont}>
+      <h1 className={styles.heroSectionText}>
         Usługi brukarskie i ogrody na najwyższym poziomie
       </h1>
     </section>
