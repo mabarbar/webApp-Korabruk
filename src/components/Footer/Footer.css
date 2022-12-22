@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #45484d;
+  color: #e6ebf2;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.footerLogo {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+p {
+  padding: 1rem 0;
+}

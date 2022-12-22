@@ -1,10 +1,25 @@
-import React from 'react'
-import './FooterListItem.css'
+import React from "react";
+import "./FooterList.css";
+
+import mapPin from "../../images/map-pin.svg";
 
 const FooterList = () => {
   return (
-    <div>FooterList</div>
-  )
-}
+    <ul className="footerList">
+      <li className="footerList">
+        <img src={mapPin} alt="" />
+        <div>Końskowola 24-130, ul. Słoneczna 6</div>
+      </li>
+      <li className="footerList">
+        <img src={mapPin} alt="" />
+        <div>727 525 503</div>
+      </li>
+      <li className="footerList">
+        <img src={mapPin} alt="" />
+        <div>korabrukks@gmail.com</div>
+      </li>
+    </ul>
+  );
+};
 
-export default FooterList
+export default FooterList;
