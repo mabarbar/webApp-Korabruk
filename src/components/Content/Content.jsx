@@ -6,11 +6,11 @@ import styles from "./Content.module.css";
 
 const content = () => {
   return (
-    <body>
+    <div className={styles.content}>
       <ItemList />
       <AboutUs />
       <Contact />
-    </body>
+    </div>
   );
 };
 
