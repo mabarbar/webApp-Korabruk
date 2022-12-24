@@ -5,7 +5,7 @@ import phoneIcon from "../../images/phoneGray.svg";
 
 const Contact = () => {
   return (
-    <section className={styles.contactContent}>
+    <section className={styles.contactContent} id="kontakt">
       <p>
         W przypadku zainteresowania zapraszamy do kontaktu telefonicznego-
         Konrad Skindzier odpowie na wszystkie pytania.
