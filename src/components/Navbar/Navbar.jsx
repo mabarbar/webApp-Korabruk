@@ -6,12 +6,14 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <nav>
-      <a className="logo" href="~">
-        <span className={styles.halfLogo}>KORA</span> BRUK
-      </a>
+      <div className={styles.navbarBox}>
+        <a className={styles.logo} href="~">
+          <span className={styles.halfLogo}>KORA&nbsp;</span>BRUK
+        </a>
 
-      <NavbarList />
-      <NavbarHamburger /> 
+        <NavbarList />
+        <NavbarHamburger />
+      </div>
     </nav>
   );
 };

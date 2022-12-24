@@ -10,6 +10,7 @@
 
 .hamburger,
 .navhamb {
+  display: none;
   -webkit-transition: -webkit-transform 0.3s 0.01s ease-in-out;
   transition: -webkit-transform 0.3s 0.01s ease-in-out;
   transition: transform 0.3s 0.01s ease-in-out;

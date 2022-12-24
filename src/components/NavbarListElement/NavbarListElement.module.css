@@ -1,0 +1,14 @@
+.navbarListElement, .navbarListElement:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbarListElement:focus, .navbarListElement:hover {
+  color: #888;
+}
+
+.navbarCallUs {
+  color: green;
+  font-weight: 900;
+  text-decoration: none;
+}

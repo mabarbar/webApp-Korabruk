@@ -1,7 +1,7 @@
 .navButtons {
-  width: 30vw;
+  width: 467px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   list-style-type: none;
 }
+
