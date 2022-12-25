@@ -6,13 +6,13 @@ const NavbarList = () => {
   return (
     <div>
       <ul className={styles.navButtons}>
-        <NavbarListElement id="#uslugi" text="Usługi" />
-        <NavbarListElement id="#onas" text="O nas" />
+        <NavbarListElement id="uslugi" text="Usługi" />
+        <NavbarListElement id="onas" text="O nas" />
         <NavbarListElement
           id="https://www.instagram.com/KORA_BRUK_/"
           text="Realizacje"
         />
-        <NavbarListElement id="#kontakt" text="Zadzwoń do nas" />
+        <NavbarListElement id="kontakt" text="Zadzwoń do nas" />
       </ul>
     </div>
   );

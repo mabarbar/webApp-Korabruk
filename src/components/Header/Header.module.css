@@ -2,6 +2,7 @@
   max-width: 100%;
   height: calc(100vh - 64px);
   background-image: url(../../images/image.webp);
+  background-size: cover;
   /* -webkit-filter: brightness(0.7);
   filter: brightness(0.7); */
 }

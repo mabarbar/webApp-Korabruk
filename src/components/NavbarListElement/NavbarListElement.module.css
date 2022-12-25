@@ -5,10 +5,16 @@
 
 .navbarListElement:focus, .navbarListElement:hover {
   color: #888;
+  cursor: pointer;
+}
+
+.navbarCallUs:focus, .navbarCallUs:hover {
+  color: hsla(120, 100%, 25%, 0.6);
+  cursor: pointer;
 }
 
 .navbarCallUs {
-  color: green;
+  color: hsl(120, 100%, 25%);
   font-weight: 900;
   text-decoration: none;
 }

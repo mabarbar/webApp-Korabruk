@@ -10,7 +10,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 65%;
+  width: 64.5%;
 }
 
 .footerLogo {
@@ -20,7 +20,7 @@ footer {
   padding: 3rem 0 0;
 }
 
-p {
+p.footerParagraph {
   padding: 3rem 0;
 }
 

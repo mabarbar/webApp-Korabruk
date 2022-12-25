@@ -12,6 +12,11 @@
   content: "";
 }
 
-.contentListItem:nth-child(1) {
+/* .contentListItem:nth-child(1) {
   padding: 1em;
+} */
+
+
+.bold {
+  font-weight: bold;
 }

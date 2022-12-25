@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
       <div className={styles.footerContent}>
         <p className={styles.footerLogo}>KORA BRUK</p>
-        <p>
+        <p className={styles.footerParagraph}>
           Oferujemy kompleksowe usługi w zakresie brukarstwa, projektowania i
           budowy ogrodów a także innych usług budowlanych. Działamy na terenie
           województwa lubelskiego.
