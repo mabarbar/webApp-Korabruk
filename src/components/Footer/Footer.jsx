@@ -16,7 +16,7 @@ const Footer = () => {
           województwa lubelskiego.
         </p>
         <FooterList />
-        <p className={styles.copyright}>Copyright &copy; {copyrightYear}. All Rights Reserved.</p>
+        {/* <p className={styles.copyright}>Copyright &copy; {copyrightYear}. All Rights Reserved.</p> */}
       </div>
     </footer>
   );

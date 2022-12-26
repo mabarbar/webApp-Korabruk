@@ -1,20 +1,28 @@
-.navbarListElement, .navbarListElement:visited {
+.navbarListElement,
+.navbarListElement:visited {
   color: #000;
   text-decoration: none;
 }
 
-.navbarListElement:focus, .navbarListElement:hover {
+.navbarListElement:focus,
+.navbarListElement:hover {
   color: #888;
   cursor: pointer;
 }
 
-.navbarCallUs:focus, .navbarCallUs:hover {
+.navbarCallUs:focus,
+.navbarCallUs:hover {
   color: hsla(120, 100%, 25%, 0.6);
   cursor: pointer;
 }
 
 .navbarCallUs {
-  color: hsl(120, 100%, 25%);
-  font-weight: 900;
+  padding: 0.666em 1.125em;
+  /* height: 48px;
+  width: 181px; */
+  border-radius: 8px;
+  color: #fff;
+  background-color: #078526;
+  font-weight: 700;
   text-decoration: none;
 }

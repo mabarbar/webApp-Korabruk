@@ -1,6 +1,7 @@
 .navButtons {
-  width: 467px;
+  width: 572px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   list-style-type: none;
 }
