@@ -10,3 +10,9 @@
   text-align: center;
   background: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+  .aboutUsListItem {
+    width: auto;
+  }
+}

@@ -2,3 +2,10 @@
   display: flex;
   width: 97%;
 }
+
+@media screen and (max-width: 1024px) {
+  .aboutUsList {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

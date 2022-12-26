@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   max-width: 100%;
   height: calc(100vh - 64px);
   background-image: url(../../images/image.webp);
   background-size: cover;
+  background-position: center;
   /* -webkit-filter: brightness(0.7);
   filter: brightness(0.7); */
 }
 
-.heroSectionBox {
+/* .heroSectionBox {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,11 +19,11 @@
   width: 100%;
   height: 65%;
   margin-top: 30vh;
-}
+  border: 1px red solid;
+} */
 
 .heroSectionText {
-  width: 60vw;
-  margin-right: 7em;
+  width: 70vw;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35))
   drop-shadow(0px 4px 4px #00000059);
   -webkit-animation-name: slidein;
@@ -33,11 +33,42 @@
 }
 
 h1 {
-  width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 300px 0 0 150px;
   font-size: 4.888em;
   line-height: 120px;
   font-weight: 600;
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroSectionText {
+    width: 80vw;
+    margin: 250px 0 0 0;
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .headerCont {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .heroSectionText {
+    width: 80vw;
+    margin: 250px 0 0 0;
+    font-size: 4.5em;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  .headerCont {
+    align-items: center;
+  }
 }
 
 @-webkit-keyframes slidein {
