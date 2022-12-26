@@ -3,3 +3,10 @@
   flex-direction: column;
   align-items: center;
 }
+
+p.about {
+  width: 70%;
+  text-align: center;
+  /* font-size: 1.5em; */
+  /* margin: 0.5em; */
+}

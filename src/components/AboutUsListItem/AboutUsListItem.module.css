@@ -1,0 +1,12 @@
+.aboutUsListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px 16px;
+  margin: 32px;
+  text-align: center;
+  background: #fff;
+}

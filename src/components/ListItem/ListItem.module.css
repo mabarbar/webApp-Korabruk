@@ -1,16 +1,19 @@
 .contentListItem::before {
   content: "• ";
+  font-size: 32px;
   color: green;
 }
 
 .contentListItem {
+  /* display: flex;
+  align-items: center; */
   list-style-type: none;
-  margin: 1em;
+  margin: 0.5em;
 }
 
-.contentListItem:nth-child(1)::before {
+/* .contentListItem:nth-child(1)::before {
   content: "";
-}
+} */
 
 /* .contentListItem:nth-child(1) {
   padding: 1em;

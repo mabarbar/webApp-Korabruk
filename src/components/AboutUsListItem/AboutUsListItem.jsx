@@ -1,10 +1,14 @@
-import React from 'react'
-import styles from './AboutUsListItem.module.css'
+import React from "react";
+import styles from "./AboutUsListItem.module.css";
 
-const AboutUsListItem = ( {text} ) => {
+const AboutUsListItem = ({ source, text, title }) => {
   return (
-    <li>{text}</li>
-  )
-}
+    <li className={styles.aboutUsListItem}>
+      <img src={source} alt="" />
+      <h3>{title}</h3>
+      {text}
+    </li>
+  );
+};
 
-export default AboutUsListItem
+export default AboutUsListItem;
