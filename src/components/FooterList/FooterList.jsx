@@ -10,7 +10,7 @@ const FooterList = () => {
     <ul className={styles.footerList}>
       <li className={styles.footerList}>
         <img src={mapPin} alt="" width="40px" height="40px" />
-        <span>Końskowola 24-130, ul. Słoneczna 6</span>
+        <span>Końskowola, ul. Słoneczna 6</span>
       </li>
       <li className={styles.footerList}>
         <img src={phone} alt="" width="40px" height="40px" />

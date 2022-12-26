@@ -6,7 +6,7 @@ const ItemList = () => {
   return (
     <>
       <h2>Nasza oferta</h2>
-      <ul className={styles.contentList} id="uslugi">
+      <ul className={styles.contentList}>
         <ListItem
           topic="BRUKARSTWO"
           ListItemText=" - układanie kostki brukowej betonowej, granitowej, utwardzanie nawierzchni, przebudowa istniejących placów i parkingów."
