@@ -12,7 +12,8 @@
 
 .navbarCallUs:focus,
 .navbarCallUs:hover {
-  color: hsla(120, 100%, 25%, 0.6);
+  color: #fff;
+  background: #078527bd;
   cursor: pointer;
 }
 

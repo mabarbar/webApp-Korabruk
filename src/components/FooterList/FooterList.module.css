@@ -13,13 +13,27 @@ li.footerList {
   list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+.nowrap {
+  white-space: nowrap;
+}
+
+.anchorClass {
+  color: #fff;
+  text-decoration: none;
+}
+
+.anchorClass:active, .anchorClass:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
   ul.footerList {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-
+  /* text-align: center; */
+  
   li.footerList {
     margin: 1em 0;
   }

@@ -14,7 +14,23 @@
   transition: -webkit-transform 0.3s 0.01s ease-in-out;
   transition: transform 0.3s 0.01s ease-in-out;
   transition: transform 0.3s 0.01s ease-in-out,
-    -webkit-transform 0.3s 0.01s ease-in-out;
+  -webkit-transform 0.3s 0.01s ease-in-out;
+}
+
+.navhamb {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  height: 100vh;
+  background-color: #fff;
+  padding: 3em;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
+
+div.navhamb li {
+  padding: 1em;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -35,6 +51,7 @@
   height: 24px;
   display: inline-block;
   position: relative;
+  border: 1px solid red;
 }
 
 .hamburger__inner {

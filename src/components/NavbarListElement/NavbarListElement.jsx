@@ -10,27 +10,23 @@ const NavbarListElement = ({ id, text }) => {
           ? styles.navbarCallUs
           : styles.navbarListElement
       }
-    > {text === "Realizacje" ? <a className={styles.navbarListElement} href={id}>{text}</a> : <Link
-    activeClass="active"
-    to={id}
-    spy={true}
-    smooth={true}
-    offset={-100}
-    duration={1000}
-  >
-    {text}
-  </Link>}
-         
-      {/* <a
-        className={
-          text === "Zadzwoń do nas"
-            ? styles.navbarCallUs
-            : styles.navbarListElement
-        }
-        href={id}
-      >
-        {text}
-      </a> */}
+    >
+      {text === "Realizacje" ? (
+        <a className={styles.navbarListElement} href={id} rel="noreferrer">
+          {text}
+        </a>
+      ) : (
+        <Link
+          activeClass="active"
+          to={id}
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={1000}
+        >
+          {text}
+        </Link>
+      )}
     </li>
   );
 };
