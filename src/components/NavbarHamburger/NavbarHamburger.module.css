@@ -20,7 +20,7 @@
 .navhamb {
   position: absolute;
   top: 80px;
-  right: 0;
+  right: -300px;
   height: 100vh;
   background-color: #fff;
   padding: 3em;
@@ -28,7 +28,7 @@
   /* border: 1px solid red; */
 }
 
-div.navhamb li {
+.navhamb li {
   padding: 1em;
   list-style-type: none;
 }
@@ -40,9 +40,9 @@ div.navhamb li {
   }
 }
 
-.hamburger--active {
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
+.hamburgerNavActive {
+  -webkit-transform: translateX(-300px);
+  transform: translateX(-300px);
   z-index: 1;
 }
 
@@ -51,7 +51,6 @@ div.navhamb li {
   height: 24px;
   display: inline-block;
   position: relative;
-  border: 1px solid red;
 }
 
 .hamburger__inner {
@@ -90,16 +89,16 @@ div.navhamb li {
   top: 8px;
 }
 
-.hamburger--active .hamburger__inner {
+.hamburgerActive .hamburger__inner {
   background-color: transparent;
 }
 
-.hamburger--active .hamburger__inner:before {
+.hamburgerActive .hamburger__inner:before {
   -webkit-transform: translateY(8px) rotate(45deg);
   transform: translateY(8px) rotate(45deg);
 }
 
-.hamburger--active .hamburger__inner:after {
+.hamburgerActive .hamburger__inner:after {
   -webkit-transform: translateY(-8px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg);
 }

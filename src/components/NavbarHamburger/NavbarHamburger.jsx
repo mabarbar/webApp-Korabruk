@@ -1,45 +1,46 @@
-import { React, useCallback, useState } from "react";
+import { React, useState } from "react";
 import styles from "./NavbarHamburger.module.css";
 
 import NavbarListElement from "../NavbarListElement/NavbarListElement.jsx";
 
 const NavbarHamburger = () => {
-  const [hamburgerBoolean, setHamburgerBoolean] = useState(false);
+  const [hamburgerButton, setHamburgerButton] = useState(styles.hamburger);
+  const [hamburgerNav, setHamburgerNav] = useState(styles.navhamb);
+
+  const hamburgerClasses = styles.hamburger + " " + styles.hamburgerActive;
+  const hamburgerNavClasses = styles.navhamb + " " + styles.hamburgerNavActive;
 
   const handleClick = () => {
-    handleClick = () => {
-      setHamburgerBoolean(!hamburgerBoolean);
-    };
-    // const hamburger = document.querySelector(".hamburger");
-    // const navhamb = document.querySelector(".navhamb");
-    // console.log(hamburger);
-    // hamburger.classList.toggle("hamburger--active");
-    // navhamb.classList.toggle("navhamb--active");
+    if (hamburgerButton === styles.hamburger) {
+      setHamburgerButton(hamburgerClasses);
+      setHamburgerNav(hamburgerNavClasses);
+    } else {
+      setHamburgerButton(styles.hamburger);
+      setHamburgerNav(styles.navhamb);
+    }
   };
 
   return (
     <>
-      <div>
-        <button
-          onClick={handleClick}
-          className={styles.hamburger}
-          aria-label="hamburger menu"
-        >
-          <span className={styles.hamburger__box}>
-            <span className={styles.hamburger__inner}></span>
-          </span>
-        </button>
-        <div class={styles.navhamb}>
-          <ul>
-            <NavbarListElement id="onas" text="O nas" />
-            <NavbarListElement id="uslugi" text="Usługi" />
-            <NavbarListElement
-              id="https://www.instagram.com/KORA_BRUK_/"
-              text="Realizacje"
-            />
-            <NavbarListElement id="kontakt" text="Zadzwoń do nas" />
-          </ul>
-        </div>
+      <button
+        onClick={handleClick}
+        className={hamburgerButton}
+        aria-label="hamburger menu"
+      >
+        <span className={styles.hamburger__box}>
+          <span className={styles.hamburger__inner}></span>
+        </span>
+      </button>
+      <div class={hamburgerNav}>
+        <ul>
+          <NavbarListElement id="onas" text="O nas" />
+          <NavbarListElement id="uslugi" text="Usługi" />
+          <NavbarListElement
+            id="https://www.instagram.com/KORA_BRUK_/"
+            text="Realizacje"
+          />
+          <NavbarListElement id="kontakt" text="Zadzwoń do nas" />
+        </ul>
       </div>
     </>
   );
