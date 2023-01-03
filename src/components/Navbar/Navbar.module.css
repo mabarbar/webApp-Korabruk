@@ -20,6 +20,7 @@ nav {
 }
 
 .logo {
+  color: #000;
   font-size: 1.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
