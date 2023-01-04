@@ -3,8 +3,8 @@ import FooterList from "../FooterList/FooterList";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
-  const date = new Date();
-  const copyrightYear = date.getFullYear();
+  // const date = new Date();
+  // const copyrightYear = date.getFullYear();
 
   return (
     <footer>
